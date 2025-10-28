@@ -1,15 +1,8 @@
-(폴더 생성)
-(폴더에 requirements.txt 삽입)
-python --version (파이썬 있는지 확인)
-pip install python3 or pip install python (없으면 설치)
-py -3 -m venv .venv
-.venv\Scripts\activate.bat
-(액티브 되는지 확인. 만약 안 되면 기존 .venv 폴더 지우고 python -m venv .venv 시도)
+python --version
+python -m venv .venv
+.venv\Scripts\Activate
 pip install -r requirements.txt
-(설치 마치고 종료)
-
-(다음날 실행)
-(폴더에 app.py 삽입)
-.venv\Scripts\activate.bat
+.venv\Scripts\Activate
+cd .\weather-dashboard
 streamlit run app.py
-(첫날 엑셀파일 업로드)
+
